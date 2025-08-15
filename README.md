@@ -1,9 +1,4 @@
 # LegalBot – AI-Powered Legal Information Chatbot
-
-[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
-[![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-
 ---
 
 ## **Project Overview**
