@@ -1,0 +1,122 @@
+[
+    {
+        "topic_en":"FIR Filing",
+        "topic_hi":"एफआईआर दर्ज करना",
+        "act_and_section":"Section 154, CrPC",
+        "explanation_en":"Any person can file an FIR at the police station for a cognizable offence. The police are bound to register it.",
+        "explanation_hi":"किसी भी व्यक्ति द्वारा संज्ञेय अपराध के लिए थाने में एफआईआर दर्ज की जा सकती है। पुलिस को इसे दर्ज करना अनिवार्य है।",
+        "required_documents":"Identity proof, written complaint (if available)",
+        "fees":"No fees",
+        "timeline":"Immediate",
+        "source":"https:\/\/www.mahapolice.gov.in",
+        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
+    },
+    {
+        "topic_en":"Bail Application",
+        "topic_hi":"जमानत आवेदन",
+        "act_and_section":"Section 436-439, CrPC",
+        "explanation_en":"An accused person can apply for bail in Magistrate or Sessions Court depending on the case.",
+        "explanation_hi":"आरोपी व्यक्ति मामले के अनुसार मजिस्ट्रेट या सत्र न्यायालय में जमानत के लिए आवेदन कर सकता है।",
+        "required_documents":"Bail application, identity documents",
+        "fees":"Court fees as applicable",
+        "timeline":"1-7 days",
+        "source":"https:\/\/indiacode.nic.in",
+        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
+    },
+    {
+        "topic_en":"Consumer Complaint",
+        "topic_hi":"उपभोक्ता शिकायत",
+        "act_and_section":"Consumer Protection Act, 2019",
+        "explanation_en":"Consumers can file complaints for defective goods or deficient services at Consumer Forums.",
+        "explanation_hi":"उपभोक्ता दोषपूर्ण वस्तुओं या सेवाओं की कमी के लिए उपभोक्ता फोरम में शिकायत दर्ज कर सकते हैं।",
+        "required_documents":"Purchase bill, warranty card, complaint proof",
+        "fees":"Nominal filing fee",
+        "timeline":"30-90 days",
+        "source":"https:\/\/ncdrc.nic.in",
+        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
+    },
+    {
+        "topic_en":"Cheque Bounce",
+        "topic_hi":"चेक बाउंस",
+        "act_and_section":"Section 138, Negotiable Instruments Act",
+        "explanation_en":"If a cheque bounces due to insufficient funds, a legal notice must be sent within 30 days before filing a complaint.",
+        "explanation_hi":"यदि अपर्याप्त धनराशि के कारण चेक बाउंस होता है, तो शिकायत दर्ज करने से पहले 30 दिनों के भीतर कानूनी नोटिस भेजना आवश्यक है।",
+        "required_documents":"Cheque copy, bank memo, notice copy",
+        "fees":"Court fees",
+        "timeline":"2-6 months",
+        "source":"https:\/\/indiacode.nic.in",
+        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
+    },
+    {
+        "topic_en":"RTI Application",
+        "topic_hi":"सूचना का अधिकार आवेदन",
+        "act_and_section":"RTI Act, 2005",
+        "explanation_en":"Citizens can seek information from public authorities by filing an RTI application.",
+        "explanation_hi":"नागरिक सार्वजनिक प्राधिकरण से जानकारी प्राप्त करने के लिए आरटीआई आवेदन दाखिल कर सकते हैं।",
+        "required_documents":"RTI application form, postal order (Rs. 10)",
+        "fees":"Rs. 10 (general)",
+        "timeline":"30 days",
+        "source":"https:\/\/rti.gov.in",
+        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
+    },
+    {
+        "topic_en":"FIR Filing (6)",
+        "topic_hi":"एफआईआर दर्ज करना (6)",
+        "act_and_section":"Section 154, CrPC",
+        "explanation_en":"Any person can file an FIR at the police station for a cognizable offence. The police are bound to register it.",
+        "explanation_hi":"किसी भी व्यक्ति द्वारा संज्ञेय अपराध के लिए थाने में एफआईआर दर्ज की जा सकती है। पुलिस को इसे दर्ज करना अनिवार्य है।",
+        "required_documents":"Identity proof, written complaint (if available)",
+        "fees":"No fees",
+        "timeline":"Immediate",
+        "source":"https:\/\/www.mahapolice.gov.in",
+        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
+    },
+    {
+        "topic_en":"Bail Application (7)",
+        "topic_hi":"जमानत आवेदन (7)",
+        "act_and_section":"Section 436-439, CrPC",
+        "explanation_en":"An accused person can apply for bail in Magistrate or Sessions Court depending on the case.",
+        "explanation_hi":"आरोपी व्यक्ति मामले के अनुसार मजिस्ट्रेट या सत्र न्यायालय में जमानत के लिए आवेदन कर सकता है।",
+        "required_documents":"Bail application, identity documents",
+        "fees":"Court fees as applicable",
+        "timeline":"1-7 days",
+        "source":"https:\/\/indiacode.nic.in",
+        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
+    },
+    {
+        "topic_en":"Consumer Complaint (8)",
+        "topic_hi":"उपभोक्ता शिकायत (8)",
+        "act_and_section":"Consumer Protection Act, 2019",
+        "explanation_en":"Consumers can file complaints for defective goods or deficient services at Consumer Forums.",
+        "explanation_hi":"उपभोक्ता दोषपूर्ण वस्तुओं या सेवाओं की कमी के लिए उपभोक्ता फोरम में शिकायत दर्ज कर सकते हैं।",
+        "required_documents":"Purchase bill, warranty card, complaint proof",
+        "fees":"Nominal filing fee",
+        "timeline":"30-90 days",
+        "source":"https:\/\/ncdrc.nic.in",
+        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
+    },
+    {
+        "topic_en":"Cheque Bounce (9)",
+        "topic_hi":"चेक बाउंस (9)",
+        "act_and_section":"Section 138, Negotiable Instruments Act",
+        "explanation_en":"If a cheque bounces due to insufficient funds, a legal notice must be sent within 30 days before filing a complaint.",
+        "explanation_hi":"यदि अपर्याप्त धनराशि के कारण चेक बाउंस होता है, तो शिकायत दर्ज करने से पहले 30 दिनों के भीतर कानूनी नोटिस भेजना आवश्यक है।",
+        "required_documents":"Cheque copy, bank memo, notice copy",
+        "fees":"Court fees",
+        "timeline":"2-6 months",
+        "source":"https:\/\/indiacode.nic.in",
+        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
+    },
+    {
+        "topic_en":"RTI Application (10)",
+        "topic_hi":"सूचना का अधिकार आवेदन (10)",
+        "act_and_section":"RTI Act, 2005",
+        "explanation_en":"Citizens can seek information from public authorities by filing an RTI application.",
+        "explanation_hi":"नागरिक सार्वजनिक प्राधिकरण से जानकारी प्राप्त करने के लिए आरटीआई आवेदन दाखिल कर सकते हैं।",
+        "required_documents":"RTI application form, postal order (Rs. 10)",
+        "fees":"Rs. 10 (general)",
+        "timeline":"30 days",
+        "source":"https:\/\/rti.gov.in",
+        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
+    }
+]
