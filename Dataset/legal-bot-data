@@ -1,122 +1,237 @@
-[
-    {
-        "topic_en":"FIR Filing",
-        "topic_hi":"एफआईआर दर्ज करना",
-        "act_and_section":"Section 154, CrPC",
-        "explanation_en":"Any person can file an FIR at the police station for a cognizable offence. The police are bound to register it.",
-        "explanation_hi":"किसी भी व्यक्ति द्वारा संज्ञेय अपराध के लिए थाने में एफआईआर दर्ज की जा सकती है। पुलिस को इसे दर्ज करना अनिवार्य है।",
-        "required_documents":"Identity proof, written complaint (if available)",
-        "fees":"No fees",
-        "timeline":"Immediate",
-        "source":"https:\/\/www.mahapolice.gov.in",
-        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
+{
+  "legal_procedures": {
+    "criminal_law": {
+      "fir_filing": {
+        "description": "Step-by-step process for filing a First Information Report (FIR) at a police station.",
+        "steps": [
+          "Visit the nearest police station.",
+          "Provide written or oral complaint to duty officer.",
+          "FIR registered under relevant IPC sections.",
+          "Receive free copy of FIR signed by police officer."
+        ],
+        "sources": [
+          "https://www.indiacode.nic.in/",
+          "https://ncrb.gov.in/"
+        ]
+      },
+      "bail_application": {
+        "description": "Process for applying for bail after arrest.",
+        "steps": [
+          "Engage a lawyer.",
+          "File bail application before magistrate court.",
+          "Court hearing and submission of sureties.",
+          "Bail granted or rejected by court."
+        ],
+        "sources": [
+          "https://districts.ecourts.gov.in/",
+          "https://indiacode.nic.in/"
+        ]
+      },
+      "police_complaint_missing_report": {
+        "description": "Procedure for filing a police complaint or missing person report.",
+        "steps": [
+          "Approach nearest police station.",
+          "Submit written complaint with full details.",
+          "Get a copy of the complaint/FIR.",
+          "Follow-up with investigating officer."
+        ],
+        "sources": [
+          "https://ncrb.gov.in/",
+          "https://indiacode.nic.in/"
+        ]
+      },
+      "anticipatory_bail": {
+        "description": "Procedure for applying anticipatory bail (before arrest).",
+        "steps": [
+          "Engage a lawyer.",
+          "File anticipatory bail application in Sessions Court or High Court.",
+          "Attend court hearing.",
+          "If granted, protection from arrest subject to conditions."
+        ],
+        "sources": [
+          "https://districts.ecourts.gov.in/",
+          "https://indiacode.nic.in/"
+        ]
+      },
+      "charge_sheet_process": {
+        "description": "Procedure for filing and receiving a charge sheet by police.",
+        "steps": [
+          "Investigation conducted by police.",
+          "Charge sheet prepared under Section 173, CrPC.",
+          "Submitted to Magistrate Court.",
+          "Copies provided to accused."
+        ],
+        "sources": [
+          "https://indiacode.nic.in/"
+        ]
+      }
     },
-    {
-        "topic_en":"Bail Application",
-        "topic_hi":"जमानत आवेदन",
-        "act_and_section":"Section 436-439, CrPC",
-        "explanation_en":"An accused person can apply for bail in Magistrate or Sessions Court depending on the case.",
-        "explanation_hi":"आरोपी व्यक्ति मामले के अनुसार मजिस्ट्रेट या सत्र न्यायालय में जमानत के लिए आवेदन कर सकता है।",
-        "required_documents":"Bail application, identity documents",
-        "fees":"Court fees as applicable",
-        "timeline":"1-7 days",
-        "source":"https:\/\/indiacode.nic.in",
-        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
+    "civil_law": {
+      "domestic_violence_complaint": {
+        "description": "Process for filing a domestic violence complaint.",
+        "steps": [
+          "Approach Protection Officer or police station.",
+          "Submit written complaint under Protection of Women from Domestic Violence Act, 2005.",
+          "Court hearing before Magistrate.",
+          "Relief granted like protection order, residence order, etc."
+        ],
+        "sources": [
+          "https://wcd.nic.in/",
+          "https://indiacode.nic.in/"
+        ]
+      },
+      "property_dispute_case": {
+        "description": "Procedure for filing a property dispute case.",
+        "steps": [
+          "Engage a civil lawyer.",
+          "File suit in Civil Court with proper documentation.",
+          "Court issues summons to opposite party.",
+          "Trial and judgment."
+        ],
+        "sources": [
+          "https://districts.ecourts.gov.in/"
+        ]
+      },
+      "cheque_bounce_case": {
+        "description": "Filing cheque bounce case under Section 138 of NI Act.",
+        "steps": [
+          "Send legal notice to drawer within 30 days of cheque dishonor.",
+          "Wait 15 days for response.",
+          "File complaint before Magistrate if no payment made.",
+          "Court trial under NI Act."
+        ],
+        "sources": [
+          "https://indiacode.nic.in/"
+        ]
+      },
+      "consumer_complaint": {
+        "description": "Filing consumer complaint in Consumer Forum.",
+        "steps": [
+          "Draft complaint with documents (invoice, bills, etc.).",
+          "File online at National Consumer Helpline or District Forum.",
+          "Hearing before Consumer Forum.",
+          "Relief granted like refund, compensation."
+        ],
+        "sources": [
+          "https://consumeraffairs.nic.in/",
+          "https://edaakhil.nic.in/"
+        ]
+      }
     },
-    {
-        "topic_en":"Consumer Complaint",
-        "topic_hi":"उपभोक्ता शिकायत",
-        "act_and_section":"Consumer Protection Act, 2019",
-        "explanation_en":"Consumers can file complaints for defective goods or deficient services at Consumer Forums.",
-        "explanation_hi":"उपभोक्ता दोषपूर्ण वस्तुओं या सेवाओं की कमी के लिए उपभोक्ता फोरम में शिकायत दर्ज कर सकते हैं।",
-        "required_documents":"Purchase bill, warranty card, complaint proof",
-        "fees":"Nominal filing fee",
-        "timeline":"30-90 days",
-        "source":"https:\/\/ncdrc.nic.in",
-        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
+    "constitutional_public": {
+      "pil": {
+        "description": "Process for filing a Public Interest Litigation.",
+        "steps": [
+          "Draft petition highlighting public interest issue.",
+          "File in High Court or Supreme Court.",
+          "Court admission hearing.",
+          "Further hearings and judgment."
+        ],
+        "sources": [
+          "https://main.sci.gov.in/",
+          "https://indiacode.nic.in/"
+        ]
+      },
+      "rti_application": {
+        "description": "Procedure for filing Right to Information application.",
+        "steps": [
+          "Draft RTI request with details.",
+          "Submit to Public Information Officer (PIO).",
+          "Pay prescribed fee.",
+          "PIO must reply within 30 days."
+        ],
+        "sources": [
+          "https://rti.gov.in/"
+        ]
+      },
+      "writ_petition": {
+        "description": "Process of filing writ petitions (Habeas Corpus, Mandamus, etc.).",
+        "steps": [
+          "Engage a lawyer.",
+          "Draft writ petition under Article 32/226.",
+          "File in High Court (Art. 226) or Supreme Court (Art. 32).",
+          "Court admission and hearing."
+        ],
+        "sources": [
+          "https://main.sci.gov.in/"
+        ]
+      }
     },
-    {
-        "topic_en":"Cheque Bounce",
-        "topic_hi":"चेक बाउंस",
-        "act_and_section":"Section 138, Negotiable Instruments Act",
-        "explanation_en":"If a cheque bounces due to insufficient funds, a legal notice must be sent within 30 days before filing a complaint.",
-        "explanation_hi":"यदि अपर्याप्त धनराशि के कारण चेक बाउंस होता है, तो शिकायत दर्ज करने से पहले 30 दिनों के भीतर कानूनी नोटिस भेजना आवश्यक है।",
-        "required_documents":"Cheque copy, bank memo, notice copy",
-        "fees":"Court fees",
-        "timeline":"2-6 months",
-        "source":"https:\/\/indiacode.nic.in",
-        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
+    "family_law": {
+      "child_custody": {
+        "description": "Procedure for filing child custody petition.",
+        "steps": [
+          "Engage a family lawyer.",
+          "File custody petition in Family Court.",
+          "Court considers welfare of child.",
+          "Order for custody, visitation rights."
+        ],
+        "sources": [
+          "https://districts.ecourts.gov.in/"
+        ]
+      },
+      "adoption": {
+        "description": "Process of adoption in India.",
+        "steps": [
+          "Register with CARA (Central Adoption Resource Authority).",
+          "Home study by agency.",
+          "Referral of child and acceptance.",
+          "Court order finalizing adoption."
+        ],
+        "sources": [
+          "https://cara.nic.in/"
+        ]
+      },
+      "maintenance_alimony": {
+        "description": "Process of applying for maintenance/alimony.",
+        "steps": [
+          "File application under Section 125 CrPC or relevant personal laws.",
+          "Submit proof of income/expenses.",
+          "Court hearing.",
+          "Order for monthly maintenance."
+        ],
+        "sources": [
+          "https://indiacode.nic.in/"
+        ]
+      }
     },
-    {
-        "topic_en":"RTI Application",
-        "topic_hi":"सूचना का अधिकार आवेदन",
-        "act_and_section":"RTI Act, 2005",
-        "explanation_en":"Citizens can seek information from public authorities by filing an RTI application.",
-        "explanation_hi":"नागरिक सार्वजनिक प्राधिकरण से जानकारी प्राप्त करने के लिए आरटीआई आवेदन दाखिल कर सकते हैं।",
-        "required_documents":"RTI application form, postal order (Rs. 10)",
-        "fees":"Rs. 10 (general)",
-        "timeline":"30 days",
-        "source":"https:\/\/rti.gov.in",
-        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
-    },
-    {
-        "topic_en":"FIR Filing (6)",
-        "topic_hi":"एफआईआर दर्ज करना (6)",
-        "act_and_section":"Section 154, CrPC",
-        "explanation_en":"Any person can file an FIR at the police station for a cognizable offence. The police are bound to register it.",
-        "explanation_hi":"किसी भी व्यक्ति द्वारा संज्ञेय अपराध के लिए थाने में एफआईआर दर्ज की जा सकती है। पुलिस को इसे दर्ज करना अनिवार्य है।",
-        "required_documents":"Identity proof, written complaint (if available)",
-        "fees":"No fees",
-        "timeline":"Immediate",
-        "source":"https:\/\/www.mahapolice.gov.in",
-        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
-    },
-    {
-        "topic_en":"Bail Application (7)",
-        "topic_hi":"जमानत आवेदन (7)",
-        "act_and_section":"Section 436-439, CrPC",
-        "explanation_en":"An accused person can apply for bail in Magistrate or Sessions Court depending on the case.",
-        "explanation_hi":"आरोपी व्यक्ति मामले के अनुसार मजिस्ट्रेट या सत्र न्यायालय में जमानत के लिए आवेदन कर सकता है।",
-        "required_documents":"Bail application, identity documents",
-        "fees":"Court fees as applicable",
-        "timeline":"1-7 days",
-        "source":"https:\/\/indiacode.nic.in",
-        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
-    },
-    {
-        "topic_en":"Consumer Complaint (8)",
-        "topic_hi":"उपभोक्ता शिकायत (8)",
-        "act_and_section":"Consumer Protection Act, 2019",
-        "explanation_en":"Consumers can file complaints for defective goods or deficient services at Consumer Forums.",
-        "explanation_hi":"उपभोक्ता दोषपूर्ण वस्तुओं या सेवाओं की कमी के लिए उपभोक्ता फोरम में शिकायत दर्ज कर सकते हैं।",
-        "required_documents":"Purchase bill, warranty card, complaint proof",
-        "fees":"Nominal filing fee",
-        "timeline":"30-90 days",
-        "source":"https:\/\/ncdrc.nic.in",
-        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
-    },
-    {
-        "topic_en":"Cheque Bounce (9)",
-        "topic_hi":"चेक बाउंस (9)",
-        "act_and_section":"Section 138, Negotiable Instruments Act",
-        "explanation_en":"If a cheque bounces due to insufficient funds, a legal notice must be sent within 30 days before filing a complaint.",
-        "explanation_hi":"यदि अपर्याप्त धनराशि के कारण चेक बाउंस होता है, तो शिकायत दर्ज करने से पहले 30 दिनों के भीतर कानूनी नोटिस भेजना आवश्यक है।",
-        "required_documents":"Cheque copy, bank memo, notice copy",
-        "fees":"Court fees",
-        "timeline":"2-6 months",
-        "source":"https:\/\/indiacode.nic.in",
-        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
-    },
-    {
-        "topic_en":"RTI Application (10)",
-        "topic_hi":"सूचना का अधिकार आवेदन (10)",
-        "act_and_section":"RTI Act, 2005",
-        "explanation_en":"Citizens can seek information from public authorities by filing an RTI application.",
-        "explanation_hi":"नागरिक सार्वजनिक प्राधिकरण से जानकारी प्राप्त करने के लिए आरटीआई आवेदन दाखिल कर सकते हैं।",
-        "required_documents":"RTI application form, postal order (Rs. 10)",
-        "fees":"Rs. 10 (general)",
-        "timeline":"30 days",
-        "source":"https:\/\/rti.gov.in",
-        "disclaimer":"For guidance only. Consult a lawyer for legal advice."
+    "administrative": {
+      "passport_grievance": {
+        "description": "Filing passport grievance or lost passport complaint.",
+        "steps": [
+          "Visit Passport Seva Kendra or police station.",
+          "File FIR in case of lost passport.",
+          "Submit application for reissue with FIR copy.",
+          "Track grievance on Passport Seva portal."
+        ],
+        "sources": [
+          "https://portal2.passportindia.gov.in/"
+        ]
+      },
+      "name_change_gazette": {
+        "description": "Procedure for legal name change through Gazette notification.",
+        "steps": [
+          "Draft affidavit for name change.",
+          "Publish name change in two newspapers.",
+          "Apply to Department of Publication with documents.",
+          "Name change published in Official Gazette."
+        ],
+        "sources": [
+          "https://egazette.nic.in/"
+        ]
+      },
+      "cyber_crime_complaint": {
+        "description": "Filing a cyber crime complaint.",
+        "steps": [
+          "Visit https://cybercrime.gov.in/",
+          "Register complaint with details and evidence.",
+          "Submit ID proof if required.",
+          "Follow-up with local cyber cell police."
+        ],
+        "sources": [
+          "https://cybercrime.gov.in/"
+        ]
+      }
     }
-]
+  }
+}
