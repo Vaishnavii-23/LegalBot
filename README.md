@@ -1,15 +1,16 @@
-# LegalBot – AI-Powered Legal Information Chatbot
+# LegalBot – AI-Powered Multi-Agent Legal Assistant
+
 ---
 
 ## **Project Overview**
-LegalBot is an AI-powered chatbot designed to **make complex legal information accessible and understandable** to the general public. Legal documents, government procedures, and contracts often contain technical jargon, leaving individuals unaware of their rights and obligations. LegalBot bridges this gap by providing **plain-language explanations** in **English and Hindi**, along with references to relevant laws, sections, and procedures.
+LegalBot is a **multi-agent AI system** designed to **make legal information accessible, understandable, and actionable** for the general public. By leveraging **CrewAI**, LegalBot can coordinate multiple AI agents to handle tasks like understanding legal queries, researching relevant laws, drafting documents, and providing context-aware responses.  
 
-> ⚠️ **Disclaimer:** LegalBot provides **general informational guidance** only. It is **not a substitute for professional legal advice**. Users seeking personalized legal counsel should consult a licensed lawyer.
+> ⚠️ **Disclaimer:** LegalBot provides **general informational guidance only**. It is **not a substitute for professional legal advice**. Users seeking personalized legal counsel should consult a licensed lawyer.
 
 ---
 
-## **Group Members**
-- Vaishnavi Ghuge 
+## **Team Members**
+- Vaishnavi Ghuge  
 - Mayuri Patil  
 - Aditya Suryawanshi  
 - Pankaj Bhise  
@@ -17,54 +18,35 @@ LegalBot is an AI-powered chatbot designed to **make complex legal information a
 ---
 
 ## **Key Features**
-- **Bilingual Support**: Answers in both English and Hindi.
-- **RAG-Based Model**: Uses Retrieval-Augmented Generation to provide accurate, context-aware responses from a curated dataset of legal processes and clauses.
-- **Document Clause Analysis**: Supports analyzing contracts, rental agreements, loan contracts, and terms of service, highlighting key clauses and their meanings.
-- **Act & Section Mapping**: Links explanations to relevant laws and government acts for better clarity.
-- **Dynamic Retrieval**: Queries both static knowledge (LegalBot dataset) and user-uploaded legal documents.
-- **User-Friendly Outputs**: Step-by-step instructions, required documents, fees, timelines, and source references.
-
----
-
-## **Dataset**
-**LegalBot Knowledge Base**: 100+ entries covering:
-
-- Police & FIR processes
-- Court procedures (bail, appeals, divorce, cheque bounce)
-- Property & Civic matters (land registration, ration cards, Aadhaar updates)
-- Business & Licenses (GST, MSME, trade licenses)
-- Contracts (rental agreements, indemnity, arbitration)
-- Welfare & Identification processes
-
-**Fields included**:
-
-- `topic_en`, `topic_hi`
-- `act_and_section`
-- `explanation_en`, `explanation_hi`
-- `required_documents`
-- `fees`, `timeline`
-- `source`
+- **Multi-Agent Coordination**: Uses CrewAI to manage AI agents specialized in classification, legal research, and document drafting.  
+- **Query Understanding**: Classifies user queries into procedural, contractual, or general legal categories.  
+- **Legal Research & Reference**: Retrieves relevant acts, sections, and precedent cases from curated datasets and public sources.  
+- **Document Drafting**: Automatically drafts FIRs, agreements, notices, and other legal documents.  
+- **Bilingual Support**: Provides responses in **English and Hindi**.  
+- **Interactive Frontend**: Streamlit interface for user-friendly interaction with LegalBot.  
+- **Safety & Disclaimers**: Clear guidance to consult licensed lawyers for personalized advice.  
 
 ---
 
 ## **Technology Stack**
-- **Backend**: Python + FastAPI  
-- **Frontend**: React.js / Next.js  
-- **NLP / LLM**: GPT-class model (OpenAI API / Hugging Face Transformers)  
-- **Retrieval & Vector DB**: Chroma, FAISS, or Pinecone  
-- **Document Parsing**: pdfminer.six, unstructured, Tesseract OCR  
-- **Data Format**: CSV + JSON for easy ingestion  
+- **Backend**: Python + FastAPI / Flask  
+- **Frontend**: Streamlit  
+- **Multi-Agent Framework**: CrewAI  
+- **NLP / LLM**: Grok (Meta) – generative AI for legal reasoning and drafting
+- **Document Parsing**: pdfminer.six, Tesseract OCR, unstructured  
+- **Vector Database**: Chroma / FAISS / Pinecone  
+- **Data Format**: JSON / CSV for easy ingestion  
 
 ---
 
 ## **How It Works**
 1. **User Query / Document Upload**: Users ask a question or upload a legal document.  
-2. **Intent Detection**: Determines if the query is procedural or document-specific.  
-3. **Retrieval**: 
-   - Procedural → search LegalBot dataset  
-   - Document-based → parse clauses, chunk text, retrieve relevant entries  
-4. **Response Generation**: RAG model produces a clear, bilingual answer citing relevant laws and sections.  
-5. **Output**: Step-by-step explanation with references to acts, required documents, fees, timelines, and sources.  
+2. **Intent Classification**: Determines if the query is procedural, contractual, or general.  
+3. **Multi-Agent Processing**:
+   - **Research Agent** → searches dataset/public sources for laws and sections  
+   - **Drafting Agent** → generates relevant legal document drafts  
+   - **Response Agent** → creates clear, step-by-step answers  
+4. **Output**: Displays responses via Streamlit with references, required documents, fees, and timelines.  
 
 ---
 
@@ -76,32 +58,27 @@ cd LegalBot
 ```
 2. Install dependencies:
 ```bash
-   pip install -r requirements.txt
+pip install -r requirements.txt
 ```
-3. Run backend server:
+3.Run the backend server:
 ```bash
 uvicorn main:app --reload
 ```
-4.Open frontend at 
-```bash
-http://localhost:3000 and start querying LegalBot.
-```
+
 ---
+
 ## Future Enhancements
-- Expand dataset to 500+ entries covering more acts, states, and clauses.
-- Advanced bilingual summarization and legalese simplification.
-- User feedback loop for continuous improvement.
-- Mobile-friendly frontend and document upload support.
----
+
+- Expand dataset with more acts, clauses, and state-specific laws.
+- Enhanced document analysis for contracts and agreements.
+- Real-time integration with public legal APIs for updated case references.
+- Multi-language support beyond English and Hindi.
+- Mobile-friendly frontend and PDF upload support
+
+ ---
+ 
 ## Acknowledgements
-- Datasets: legalTransEn_Indic, MILDSum, ILSI, CUAD
-- NLP Libraries: Hugging Face Transformers, OpenAI API
-- Document Parsing: pdfminer.six, unstructured, Tesseract OCR
-
----
-## License
-
-This project is licensed under the MIT License – see the LICENSE file for details.
-
----
-
+- CrewAI – Multi-agent orchestration
+- NLP Models – Grok (Meta)
+- Document Parsing – pdfminer.six, unstructured, Tesseract OCR
+- Vector Databases – Chroma, FAISS, Pinecone
