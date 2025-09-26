@@ -1,0 +1,10 @@
+crewai
+crewai-tools
+langchain-community
+langchain
+langchain-huggingface
+langchain-chroma
+sentence-transformers
+python-dotenv
+tavily-python
+streamlit
