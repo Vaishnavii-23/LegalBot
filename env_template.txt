@@ -1,0 +1,10 @@
+GROQ_API_KEY=<groq_api_key>
+TAVILY_API_KEY=<tavily_api_key>
+IPC_JSON_PATH=<your_ipc_json_path>
+PERSIST_DIRECTORY_PATH=<persist_directory_path_for_vector_store>
+IPC_COLLECTION_NAME=<ipc_collection_name>
+
+# example values
+# IPC_JSON_PATH="D:/work/2_yt_pycharm/code_prep/ai-legal-assistant-crewai/ipc.json"
+# PERSIST_DIRECTORY_PATH="D:/work/2_yt_pycharm/code_prep/ai-legal-assistant-crewai/chroma_vectordb"
+# IPC_COLLECTION_NAME="ipc_collection"
